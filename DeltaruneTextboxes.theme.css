@@ -1,10 +1,11 @@
 /**
  * @name Deltarune Textboxes
  * @description Vencord theme that makes all messages look like deltarune textboxes with some little extra features!
- * @author CopyKatt (kitty-girl)
+ * @author CopyKatt (kitty-girl) Updated by The Roaring Knight
  * @version 1.0.0
  * @source https://github.com/kitty-girl/DeltaruneTextboxesVencord
  * @authorId 513340710305398784
+ * @website https://roaringknight.nekoweb.org
 */
 
 /* fonts */
@@ -19,6 +20,17 @@
     src: url(https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/fonts/comic-sans-pixel.ttf) format('truetype');
 }
 
+/* reply background */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .groupStart__5126c {
+    background-color: black;
+    margin: 64px;
+    padding: 0 !important;
+    padding-left: 48px !important;
+    border: 32px solid transparent;
+    border-image: url(https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/textboxborder.gif) 64 round;
+    border-image-outset: 0.5;
+    min-height:100px;
+}
 
 /* message background */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 {
@@ -32,6 +44,16 @@
     min-height:100px;
 }
 
+/* user pfp as portrait on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 .avatar_c19a55 {
+    position: absolute;
+    content: var(--avatar-url-128) !important;
+    transform: scale(8) !important;
+    left:-70px;
+    top: 40px;
+    border-radius: 0;
+}
+
 /* user pfp as portrait */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 .avatar_c19a55 {
     position: absolute;
@@ -40,6 +62,18 @@
     left:-70px;
     top: 40px;
     border-radius: 0;
+}
+
+/* hide timestamp on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .header_c19a55 > .timestamp_c19a55 {
+    display: block;
+    position: absolute;
+    top:-60px;
+    left:-130px;
+    opacity: 100%;
+    font-family: "8bitop JVE";
+    font-size: 16px;
+    /* left:0; */
 }
 
 /* hide timestamp */
@@ -54,6 +88,17 @@
     /* left:0; */
 }
 
+/* username on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 .headerText_c19a55 .username_c19a55 {
+    display: block;
+    top:-16px;
+    left:-90px;
+    width:256px !important;
+    text-align: center !important;
+    font-family: "8bitop JVE";
+    font-size: 16px;
+}
+
 /* username */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 .headerText_c19a55 .username_c19a55 {
     display: block;
@@ -65,9 +110,36 @@
     font-size: 16px;
 }
 
-/* hide all user info but username */
+/* offset tag to above portrait on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 .headerText_c19a55  > *:not(.username_c19a55){
+    position: absolute;
+    display: block;
+    left:45px;
+    bottom:165px;
+}
+
+/* offset tag to above portrait */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 .headerText_c19a55 > *:not(.username_c19a55){
-    display: none;
+    position: absolute;
+    display: block;
+    left:45px;
+    bottom:165px;
+}
+
+/* offset New Member Badge to above portrait */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 .headerText_c19a55 > * > .newMemberBadge_f80704 {
+    position: absolute;
+    display: block;
+    left:-90px;
+    top:-17px;
+}
+
+/* offset username to below portrait on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 .headerText_c19a55 {
+    position: absolute;
+    display: block;
+    left:-64px;
+    top:128px;
 }
 
 /* offset username to below portrait */
@@ -78,6 +150,14 @@
     top:128px;
 }
 
+/* offset entire message right on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 {
+    position: relative;
+    top:0px;
+    left:140px;
+    width: calc(100% - 110px) !important;
+}
+
 /* offset entire message right */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 {
     position: relative;
@@ -86,10 +166,38 @@
     width: calc(100% - 110px) !important;
 }
 
+/* offset message content up on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 {
+    position: relative;
+    top:-16px;
+}
+
 /* offset message content up */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 {
     position: relative;
     top:-16px;
+}
+
+/* reply asterisk */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55:not(:empty)::before {
+    display: inline-block;
+    content: '   *';
+    position: relative;
+    left:8px;
+    width:64px;
+    margin-left:0px;
+    vertical-align: top;
+    font-size: 32px;
+    font-weight: 0;
+    line-height: 40px;
+    --custom-emoji-size-emoji:32px;
+    font-family: "8bitop JVE";
+}
+/* reply asterisk for comic sans */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55:has(u:first-child)::before {
+    font-family: 'comic sans pixel';
+    font-size: 28px;
+    left:8px;
 }
 
 /* asterisk */
@@ -113,6 +221,47 @@
     font-size: 28px;
     left:8px;
 }
+
+/* reply message */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 > * {
+    display: inline;
+    margin-top:-16px;
+    margin-left:0px;
+    vertical-align: top;
+    font-size: 32px;
+    font-weight: 0;
+    line-height: 40px;
+    padding-bottom:4px;
+    --custom-emoji-size-emoji:32px;
+    
+    font-family: "8bitop JVE";
+}
+/* reply -# small text */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 > small {
+    font-size:16px;
+}
+/* reply **bold** (turns red) */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 strong {
+    font-weight: 0;
+    color:red;
+}
+/* reply *italic* (turns yellow) */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 em {
+    font-style: normal;
+    color:yellow;
+}
+/* reply ***bold and italic*** (turns into the "human i remember you're genocides" meme) */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 em > strong {
+    color:red;
+    text-shadow: 0px 0px 20px red, 0px 0px 20px red, 0px 0px 20px red, 0px 0px 20px red;
+}
+/* reply _underlined_ (turns into comic sans) */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 u {
+    text-decoration:none;
+    font-family: 'comic sans pixel';
+    font-size: 28px;
+}
+
 /* normal message */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 > * {
     display: inline;
@@ -153,11 +302,52 @@
     font-size: 28px;
 }
 
+/* replied message offset on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .repliedMessage_c19a55 {
+    display: flex;
+    position:absolute;
+    top:-70px;
+}
+
 /* replied message offset */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 .repliedMessage_c19a55 {
     display: flex;
     position:absolute;
     top:-70px;
+}
+
+/* offset embeds to the right on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 .container_b7e1cb {
+    left: 100px;
+    margin-right: 100px;
+}
+/* fix spacing on embeds with no message on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55:has(> .contents_c19a55 > .messageContent_c19a55:empty) > .container_b7e1cb {
+    margin-top:-16px;
+    margin-bottom:-16px;
+}
+
+/* (edited) text size on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 .timestamp_c19a55 > time > span {
+    font-size: 16px !important;
+}
+
+/* turn replying and mentioned messages border yellow on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55.mentioned__5126c,
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55.replying__5126c {
+    border-image: url(https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/reply_textboxborder.gif) 64 round;
+    border-image-outset: 0.5;
+}
+
+/* offset embeds to the right on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .container_b7e1cb {
+    left: 100px;
+    margin-right: 100px;
+}
+/* fix spacing on embeds with no message on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55:has(> .contents_c19a55 > .messageContent_c19a55:empty) > .container_b7e1cb {
+    margin-top:-16px;
+    margin-bottom:-16px;
 }
 
 /* offset embeds to the right */
@@ -169,6 +359,11 @@
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55:has(> .contents_c19a55 > .messageContent_c19a55:empty) > .container_b7e1cb {
     margin-top:-16px;
     margin-bottom:-16px;
+}
+
+/* (edited) text size on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 .timestamp_c19a55 > time > span {
+    font-size: 16px !important;
 }
 
 /* (edited) text size */
@@ -304,6 +499,28 @@
     margin-right:-4px;
 }
 
+/* use emoji as portrait if message starts with it on reply */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 > .emojiContainer__75abc:first-child {
+    position: absolute;
+    --custom-emoji-size-emoji:128px;
+    left:-136px;
+    top:16px
+}
+
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 > .emojiContainer__75abc:first-child img {
+    width: 128px;
+    height: 128px;
+    /* image-rendering: pixelated; */
+}
+/* .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55:has(.inlineMediaEmbed__623de img[src*="cdn.discordapp.com/emojis"]) .avatar_c19a55, */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55:has(> .contents_c19a55 > .messageContent_c19a55 > .emojiContainer__75abc:first-child) .avatar_c19a55 {
+    display: none;
+}
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 > .emojiContainer__75abc > .emoji[aria-label="🦌"] {
+    content: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/portrait/noelle.png') !important;
+    background: transparent !important;
+    image-rendering: pixelated;
+}
 
 /* use emoji as portrait if message starts with it */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 > .emojiContainer__75abc:first-child {
