@@ -5,7 +5,12 @@ Vencord theme that makes all messages look like deltarune textboxes with some li
 The theme does not work with default chat mode yet, for now you should:
 - Turn on Compact mode
 
-![Turn on compact mode and disable hide user avatars](assets/readme/settings.png)
+![Turn on compact mode and disable hide user avatars](assets/readme/capture1.png)
+
+- Go to apperance settings
+- Enable Show User Avatars
+
+![Turn on compact mode and disable hide user avatars](assets/readme/capture.png)
 
 This theme uses the ThemeAttributes vencord plugin to work properly
 - Profile pictures will be lower resolution without the plugin installed
