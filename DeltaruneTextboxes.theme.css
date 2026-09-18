@@ -494,7 +494,7 @@
 .emoji[aria-label="🤍"],
 .emoji[aria-label="🤎"],
 .emoji[aria-label="💔"],
-.emoji[aria-label="🦌"],{
+.emoji[aria-label="🦌"] {
     content: var(--emoji-replacer) !important;
     background: transparent !important;
     image-rendering: pixelated;
