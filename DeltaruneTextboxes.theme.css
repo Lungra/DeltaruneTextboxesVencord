@@ -435,74 +435,74 @@
 
 
 /* EMOJI REPLACERS */
-.emojiItem_fc7141[data-surrogates="🩷"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🩷"] 
+.emoji.jumboable[alt="🩷"], .emoji[alt="🩷"] 
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/pink.png') }
-.emojiItem_fc7141[data-surrogates="❤️"] > .emojiSpriteImage_d982c2, .emoji[aria-label="❤️"]
+.emoji.jumboable[alt="❤️"], .emoji[alt="❤️"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/red.png') }
-.emojiItem_fc7141[data-surrogates="🧡"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🧡"]
+.emoji.jumboable[alt="🧡"], .emoji[alt="🧡"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/orange.png') }
-.emojiItem_fc7141[data-surrogates="💛"] > .emojiSpriteImage_d982c2, .emoji[aria-label="💛"]
+.emoji.jumboable[alt="💛"], .emoji[alt="💛"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/yellow.png') }
-.emojiItem_fc7141[data-surrogates="💚"] > .emojiSpriteImage_d982c2, .emoji[aria-label="💚"]
+.emoji.jumboable[alt="💚"], .emoji[alt="💚"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/green.png') }
-.emojiItem_fc7141[data-surrogates="🩵"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🩵"]
+.emoji.jumboable[alt="🩵"], .emoji[alt="🩵"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/light_blue.png') }
-.emojiItem_fc7141[data-surrogates="💙"] > .emojiSpriteImage_d982c2, .emoji[aria-label="💙"]
+.emoji.jumboable[alt="💙"], .emoji[alt="💙"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/blue.png') }
-.emojiItem_fc7141[data-surrogates="💜"] > .emojiSpriteImage_d982c2, .emoji[aria-label="💜"]
+.emoji.jumboable[alt="💜"], .emoji[alt="💜"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/purple.png') }
-.emojiItem_fc7141[data-surrogates="🖤"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🖤"]
+.emoji.jumboable[alt="🖤"], .emoji[alt="🖤"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/black.png') }
-.emojiItem_fc7141[data-surrogates="🩶"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🩶"]
+.emoji.jumboable[alt="🩶"], .emoji[alt="🩶"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/gray.png') }
-.emojiItem_fc7141[data-surrogates="🤍"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🤍"]
+.emoji.jumboable[alt="🤍"], .emoji[alt="🤍"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/white.png') }
-.emojiItem_fc7141[data-surrogates="🤎"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🤎"]
+.emoji.jumboable[alt="🤎"], .emoji[alt="🤎"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/brown.png') }
-.emojiItem_fc7141[data-surrogates="💔"] > .emojiSpriteImage_d982c2, .emoji[aria-label="💔"]
+.emoji.jumboable[alt="💔"], .emoji[alt="💔"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/broken.png') }
-.emojiItem_fc7141[data-surrogates="🦌"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🦌"]
+.emoji.jumboable[alt="🦌"], .emoji[alt="🦌"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/portrait/noelle.png') }
 
-.emojiItem_fc7141[data-surrogates="🩷"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="❤️"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="🧡"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="💛"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="💚"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="🩵"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="💙"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="💜"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="🖤"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="🩶"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="🤍"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="🤎"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="💔"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="🦌"] > .emojiSpriteImage_d982c2
+.emoji.jumboable[alt="🩷"],
+.emoji.jumboable[alt="❤️"],
+.emoji.jumboable[alt="🧡"],
+.emoji.jumboable[alt="💛"],
+.emoji.jumboable[alt="💚"],
+.emoji.jumboable[alt="🩵"],
+.emoji.jumboable[alt="💙"],
+.emoji.jumboable[alt="💜"],
+.emoji.jumboable[alt="🖤"],
+.emoji.jumboable[alt="🩶"],
+.emoji.jumboable[alt="🤍"],
+.emoji.jumboable[alt="🤎"],
+.emoji.jumboable[alt="💔"],
+.emoji.jumboable[alt="🦌"]
 {
     content: var(--emoji-replacer) !important;
     background: transparent !important;
-    image-rendering: pixelated;
-    width:56px !important;
+    width:560px !important;
     margin-left:-4px;
     margin-right:-4px;
+    right:215px;
 }
-.emoji[aria-label="🩷"],
-.emoji[aria-label="❤️"],
-.emoji[aria-label="🧡"],
-.emoji[aria-label="💛"],
-.emoji[aria-label="💚"],
-.emoji[aria-label="🩵"],
-.emoji[aria-label="💙"],
-.emoji[aria-label="💜"],
-.emoji[aria-label="🖤"],
-.emoji[aria-label="🩶"],
-.emoji[aria-label="🤍"],
-.emoji[aria-label="🤎"],
-.emoji[aria-label="💔"],
-.emoji[aria-label="🦌"] {
+.emoji[alt="🩷"],
+.emoji[alt="❤️"],
+.emoji[alt="🧡"],
+.emoji[alt="💛"],
+.emoji[alt="💚"],
+.emoji[alt="🩵"],
+.emoji[alt="💙"],
+.emoji[alt="💜"],
+.emoji[alt="🖤"],
+.emoji[alt="🩶"],
+.emoji[alt="🤍"],
+.emoji[alt="🤎"],
+.emoji[alt="💔"],
+.emoji[alt="🦌"]
+{
     content: var(--emoji-replacer) !important;
     background: transparent !important;
-    image-rendering: pixelated;
     width:40px;
     margin-left:-4px;
     margin-right:-4px;
