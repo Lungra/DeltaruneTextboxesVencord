@@ -1,9 +1,9 @@
 /**
  * @name Deltarune Textboxes
  * @description Vencord theme that makes all messages look like deltarune textboxes with some little extra features!
- * @author CopyKatt (kitty-girl) Updated by The Roaring Knight
+ * @author CopyKatt (kitty-girl) Updated by The Roaring Knight and flpydisk
  * @version 1.0.0
- * @source https://github.com/kitty-girl/DeltaruneTextboxesVencord
+ * @source https://github.com/Lungra/DeltaruneTextboxesVencord
  * @authorId 513340710305398784
  * @website https://roaringknight.nekoweb.org
 */
@@ -11,13 +11,13 @@
 /* fonts */
 @font-face {
     font-family: '8bitop JVE';
-    src: url(https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/fonts/8bitoperator_jve.ttf) format('truetype');
+    src: url(https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/fonts/8bitoperator_jve.ttf) format('truetype');
     font-weight:normal;
     font-style:normal;
 }
 @font-face {
     font-family: 'comic sans pixel';
-    src: url(https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/fonts/comic-sans-pixel.ttf) format('truetype');
+    src: url(https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/fonts/comic-sans-pixel.ttf) format('truetype');
 }
 
 /* reply background */
@@ -27,7 +27,7 @@
     padding: 0 !important;
     padding-left: 48px !important;
     border: 32px solid transparent;
-    border-image: url(https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/textboxborder.gif) 64 round;
+    border-image: url(https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/textboxborder.gif) 64 round;
     border-image-outset: 0.5;
     min-height:100px;
 }
@@ -39,7 +39,7 @@
     padding: 0 !important;
     padding-left: 48px !important;
     border: 32px solid transparent;
-    border-image: url(https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/textboxborder.gif) 64 round;
+    border-image: url(https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/textboxborder.gif) 64 round;
     border-image-outset: 0.5;
     min-height:100px;
 }
@@ -335,7 +335,7 @@
 /* turn replying and mentioned messages border yellow on reply */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55.mentioned__5126c,
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55.replying__5126c {
-    border-image: url(https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/reply_textboxborder.gif) 64 round;
+    border-image: url(https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/reply_textboxborder.gif) 64 round;
     border-image-outset: 0.5;
 }
 
@@ -374,12 +374,12 @@
 /* turn replying and mentioned messages border yellow */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55.mentioned__5126c,
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55.replying__5126c {
-    border-image: url(https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/reply_textboxborder.gif) 64 round;
+    border-image: url(https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/reply_textboxborder.gif) 64 round;
     border-image-outset: 0.5;
 }
 /* turn deleted messages (messagelogger plugin) border red */
 .messagesWrapper__36d07 .messagelogger-deleted .message__5126c.compact_c19a55 {
-    border-image: url(https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/deleted_textboxborder.gif) 64 round;
+    border-image: url(https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/deleted_textboxborder.gif) 64 round;
     border-image-outset: 0.5;
 }
 
@@ -431,32 +431,33 @@
 
 /* EMOJI REPLACERS */
 .emojiItem_fc7141[data-surrogates="🩷"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🩷"] 
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/pink.png') }
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/pink.png') }
 .emojiItem_fc7141[data-surrogates="❤️"] > .emojiSpriteImage_d982c2, .emoji[aria-label="❤️"]
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/red.png') }
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/red.png') }
 .emojiItem_fc7141[data-surrogates="🧡"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🧡"]
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/orange.png') }
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/orange.png') }
 .emojiItem_fc7141[data-surrogates="💛"] > .emojiSpriteImage_d982c2, .emoji[aria-label="💛"]
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/yellow.png') }
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/yellow.png') }
 .emojiItem_fc7141[data-surrogates="💚"] > .emojiSpriteImage_d982c2, .emoji[aria-label="💚"]
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/green.png') }
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/green.png') }
 .emojiItem_fc7141[data-surrogates="🩵"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🩵"]
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/light_blue.png') }
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/light_blue.png') }
 .emojiItem_fc7141[data-surrogates="💙"] > .emojiSpriteImage_d982c2, .emoji[aria-label="💙"]
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/blue.png') }
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/blue.png') }
 .emojiItem_fc7141[data-surrogates="💜"] > .emojiSpriteImage_d982c2, .emoji[aria-label="💜"]
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/purple.png') }
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/purple.png') }
 .emojiItem_fc7141[data-surrogates="🖤"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🖤"]
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/black.png') }
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/black.png') }
 .emojiItem_fc7141[data-surrogates="🩶"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🩶"]
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/gray.png') }
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/gray.png') }
 .emojiItem_fc7141[data-surrogates="🤍"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🤍"]
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/white.png') }
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/white.png') }
 .emojiItem_fc7141[data-surrogates="🤎"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🤎"]
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/brown.png') }
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/brown.png') }
 .emojiItem_fc7141[data-surrogates="💔"] > .emojiSpriteImage_d982c2, .emoji[aria-label="💔"]
-    { --emoji-replacer: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/broken.png') }
-
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/broken.png') }
+.emojiItem_fc7141[data-surrogates="🦌"] > .emojiSpriteImage_d982c2, .emoji[aria-label="🦌"]
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/portrait/noelle.png') }
 
 .emojiItem_fc7141[data-surrogates="🩷"] > .emojiSpriteImage_d982c2,
 .emojiItem_fc7141[data-surrogates="❤️"] > .emojiSpriteImage_d982c2,
@@ -470,7 +471,9 @@
 .emojiItem_fc7141[data-surrogates="🩶"] > .emojiSpriteImage_d982c2,
 .emojiItem_fc7141[data-surrogates="🤍"] > .emojiSpriteImage_d982c2,
 .emojiItem_fc7141[data-surrogates="🤎"] > .emojiSpriteImage_d982c2,
-.emojiItem_fc7141[data-surrogates="💔"] > .emojiSpriteImage_d982c2 {
+.emojiItem_fc7141[data-surrogates="💔"] > .emojiSpriteImage_d982c2,
+.emojiItem_fc7141[data-surrogates="🦌"] > .emojiSpriteImage_d982c2
+{
     content: var(--emoji-replacer) !important;
     background: transparent !important;
     image-rendering: pixelated;
@@ -490,7 +493,8 @@
 .emoji[aria-label="🩶"],
 .emoji[aria-label="🤍"],
 .emoji[aria-label="🤎"],
-.emoji[aria-label="💔"] {
+.emoji[aria-label="💔"],
+.emoji[aria-label="🦌"],{
     content: var(--emoji-replacer) !important;
     background: transparent !important;
     image-rendering: pixelated;
@@ -510,16 +514,9 @@
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 > .emojiContainer__75abc:first-child img {
     width: 128px;
     height: 128px;
-    /* image-rendering: pixelated; */
 }
-/* .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55:has(.inlineMediaEmbed__623de img[src*="cdn.discordapp.com/emojis"]) .avatar_c19a55, */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55:has(> .contents_c19a55 > .messageContent_c19a55 > .emojiContainer__75abc:first-child) .avatar_c19a55 {
     display: none;
-}
-.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 > .emojiContainer__75abc > .emoji[aria-label="🦌"] {
-    content: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/portrait/noelle.png') !important;
-    background: transparent !important;
-    image-rendering: pixelated;
 }
 
 /* use emoji as portrait if message starts with it */
@@ -533,45 +530,10 @@
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 > .emojiContainer__75abc:first-child img {
     width: 128px;
     height: 128px;
-    /* image-rendering: pixelated; */
 }
-/* .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55:has(.inlineMediaEmbed__623de img[src*="cdn.discordapp.com/emojis"]) .avatar_c19a55, */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55:has(> .contents_c19a55 > .messageContent_c19a55 > .emojiContainer__75abc:first-child) .avatar_c19a55 {
     display: none;
 }
-.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 > .emojiContainer__75abc > .emoji[aria-label="🦌"] {
-    content: url('https://raw.githubusercontent.com/kitty-girl/DeltaruneTextboxesVencord/refs/heads/main/assets/images/portrait/noelle.png') !important;
-    background: transparent !important;
-    image-rendering: pixelated;
-}
-
-/* fakenitroemoji support */
-/* .messageContent_c19a55 a[href^="https://cdn.discordapp.com/emojis"]:first-of-type {
-    display: none !important;
-}
-.message__5126c .inlineMediaEmbed__623de:has(img[src*="cdn.discordapp.com/emojis"]):not(.message__5126c .inlineMediaEmbed__623de:has(img[src*="cdn.discordapp.com/emojis"]) ~ .inlineMediaEmbed__623de:has(img[src*="cdn.discordapp.com/emojis"])) .imageWrapper {
-    max-width:128px !important;
-    max-height:128px !important;
-}
-.message__5126c .inlineMediaEmbed__623de:has(img[src*="cdn.discordapp.com/emojis"]):not(.message__5126c .inlineMediaEmbed__623de:has(img[src*="cdn.discordapp.com/emojis"]) ~ .inlineMediaEmbed__623de:has(img[src*="cdn.discordapp.com/emojis"])) {
-    position: absolute;
-    left: -164px;
-    height:128px;
-    width:128px;
-    top:-56px;
-    transform-origin: 0 0;
-}
-
-.message__5126c .inlineMediaEmbed__623de:has(img[src*="cdn.discordapp.com/emojis"]):first-of-type img[src*="cdn.discordapp.com/emojis"] {
-    position: relative;
-    margin: auto;
-    width:calc(128px * attr(aspect-ratio)) !important;
-    height:128px !important;
-    max-width:none !important;
-    max-height:none !important;
-    border-radius: 0 !important;
-    image-rendering: pixelated;
-} */
 
 /* fix emoji offset */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 .emojiContainer__75abc {
