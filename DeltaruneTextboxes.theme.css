@@ -463,6 +463,10 @@
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/broken.png') }
 .emoji.jumboable[alt="🦌"], .emoji[alt="🦌"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/portrait/noelle.png') }
+.emoji.jumboable[alt="🫟"], .emoji[alt="🫟"]
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/portrait/ralsplat.png') }
+.emoji.jumboable[alt="♠️"], .emoji[alt="♠️"]
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/portrait/Lancer.png') }
 
 .emoji.jumboable[alt="🩷"],
 .emoji.jumboable[alt="❤️"],
@@ -477,7 +481,9 @@
 .emoji.jumboable[alt="🤍"],
 .emoji.jumboable[alt="🤎"],
 .emoji.jumboable[alt="💔"],
-.emoji.jumboable[alt="🦌"]
+.emoji.jumboable[alt="🦌"],
+.emoji.jumboable[alt="🫟"],
+.emoji.jumboable[alt="♠️"]
 {
     content: var(--emoji-replacer) !important;
     background: transparent !important;
