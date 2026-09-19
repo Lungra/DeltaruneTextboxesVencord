@@ -332,9 +332,8 @@
     font-size: 16px !important;
 }
 
-/* turn replying and mentioned messages border yellow on reply */
-.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55.mentioned__5126c,
-.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55.replying__5126c {
+/* turn replying border blue */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55.replying__5126c {
     border-image: url(https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/reply_textboxborder.gif) 64 round;
     border-image-outset: 0.5;
 }
@@ -371,10 +370,9 @@
     font-size: 16px !important;
 }
 
-/* turn replying and mentioned messages border yellow */
-.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55.mentioned__5126c,
-.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55.replying__5126c {
-    border-image: url(https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/reply_textboxborder.gif) 64 round;
+/* turn mentioned messages border yellow */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55.mentioned__5126c {
+    border-image: url(https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/mentioned_textboxborder.gif) 64 round;
     border-image-outset: 0.5;
 }
 /* turn deleted messages (messagelogger plugin) border red on reply */
@@ -675,4 +673,4 @@ html {
 #appearance-tab > div > div.children__7bffb > div:nth-child(8) > div > .slider_a562c8 > .track_a562c8 > .mark_a562c8 > .markValue_a562c8 {
     color: transparent;
     width:100%;
-}
+}leted
