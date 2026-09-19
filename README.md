@@ -27,9 +27,11 @@ TURN OFF HARDWARE ACCELERATION!
 
   ![Message](assets/readme/message.png)
 
-- Colors the outline of messages that mention you
+- Colors the outline of messages that mention you and messages that you're replying to
 
   ![Mention](assets/readme/mention.png)
+  ![Replying](assets/readme/reply.png)
+
 
 - Replaces default formatting with custom effects!
 
