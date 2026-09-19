@@ -119,11 +119,19 @@
 }
 
 /* offset tag to above portrait */
-.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 .headerText_c19a55 > *:not(.username_c19a55){
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 .headerText_c19a55 > *:not(.username_c19a55) {
     position: absolute;
     display: block;
     left:45px;
     bottom:165px;
+}
+
+/* offset app badge to above portrait */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 .contents_c19a55 > .header_c19a55 > .headerText_c19a55.hasBadges_c19a55 > *:not(.username_c19a55) {
+    position: absolute;
+    display: block;
+    left:-17px;
+    top:-162px;
 }
 
 /* offset New Member Badge to above portrait */
