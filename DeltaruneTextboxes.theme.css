@@ -431,7 +431,6 @@
     right:-32px;
 }
 
-
 /* EMOJI REPLACERS */
 .emoji.jumboable[alt="🩷"], .emoji[alt="🩷"] 
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/soul/pink.png') }
@@ -465,6 +464,8 @@
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/portrait/ralsplat.png') }
 .emoji.jumboable[alt="♠️"], .emoji[alt="♠️"]
     { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/portrait/Lancer.png') }
+.emoji.jumboable[alt="🐐"], .emoji[alt="🐐"]
+    { --emoji-replacer: url('https://raw.githubusercontent.com/Lungra/DeltaruneTextboxesVencord/refs/heads/main/assets/images/portrait/ralsei.png') }
 
 .emoji.jumboable[alt="🩷"],
 .emoji.jumboable[alt="❤️"],
@@ -481,7 +482,8 @@
 .emoji.jumboable[alt="💔"],
 .emoji.jumboable[alt="🦌"],
 .emoji.jumboable[alt="🫟"],
-.emoji.jumboable[alt="♠️"]
+.emoji.jumboable[alt="♠️"],
+.emoji.jumboable[alt="🐐"]
 {
     content: var(--emoji-replacer) !important;
     background: transparent !important;
@@ -503,7 +505,9 @@
 .emoji[alt="🤍"],
 .emoji[alt="🤎"],
 .emoji[alt="💔"],
-.emoji[alt="🦌"]
+.emoji[alt="🦌"],
+.emoji[alt="♠️"],
+.emoji[alt="🐐"]
 {
     content: var(--emoji-replacer) !important;
     background: transparent !important;
