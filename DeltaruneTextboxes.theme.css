@@ -524,6 +524,20 @@
     margin-right:-4px;
 }
 
+/* [[Hyperlink Blocked]] */
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55:has(a[href^="https://www.food.com/"]) > * {
+    visibility: hidden;
+    position: relative;
+}
+.messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55:has(a[href^="https://www.food.com/"]) > *:not(a):after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    content: "[[Hyperlink Blocked]]";
+}
+
 /* use emoji as portrait if message starts with it on reply */
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .flash__03436.backgroundFlash__5126c > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55 > .emojiContainer__75abc:first-child {
     position: absolute;
