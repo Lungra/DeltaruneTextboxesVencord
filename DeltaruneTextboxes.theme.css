@@ -525,6 +525,7 @@
 }
 
 /* [[Hyperlink Blocked]] */
+/* was this necessary lmfao, only works with one kind of recipe link -flpydisk */ 
 .messagesWrapper__36d07 > .scroller__36d07 > .content_d125d2 > .scrollerInner__36d07 > .messageListItem__5126c > .message__5126c.compact_c19a55 > .contents_c19a55 > .messageContent_c19a55:has(a[href^="https://www.food.com/"]) > * {
     visibility: hidden;
     position: relative;
