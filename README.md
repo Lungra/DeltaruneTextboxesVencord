@@ -1,6 +1,6 @@
 # DeltaruneTextboxesVencord
-Vencord theme that makes all messages look like deltarune textboxes with some little extra features!
-
+Vencord/equicord theme that makes all messages look like deltarune textboxes with some little extra features!
+ 
 <img src="assets/readme/Capture.JPG" alt="Average Conversation with this theme" width="450" height="auto"><img src="assets/readme/Capture.PNG" alt="Examples" width="450" height="auto" margin-bottom="10rem">
 
 ## Settings
