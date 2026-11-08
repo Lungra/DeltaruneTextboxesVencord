@@ -31,7 +31,7 @@ This theme uses the ThemeAttributes vencord plugin to work properly
 
 - Replaces default formatting with custom effects!
 
-  ![Formatting](assets/readme/formatting.png)
+  ![Formatting](assets/readme/formatting.PNG)
   
 - Changes heart emojis to different souls
 
